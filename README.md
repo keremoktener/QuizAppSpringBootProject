@@ -16,8 +16,10 @@ This is a quiz application developed using Spring Boot and Java. It can be used 
 
 ## Setup and Installation
 
+Prerequisites: JDK 21 and a running PostgreSQL database configured in `src/main/resources/application.yml`.
+
 1. Clone the repository to your local machine.
-2. Run the `./QuizSpringBootProjectApplication.class`.
+2. From the repository root, run `./gradlew bootRun` (Windows: `.\gradlew.bat bootRun`).
 3. The application will start on `http://localhost:9090`.
 4. Use the endpoints mentioned below to interact with the application.
 5. The application uses the `Lombok` library to reduce boilerplate code. Make sure to install the Lombok plugin in your IDE.
